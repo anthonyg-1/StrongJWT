@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.1'
+VERSION = '0.0.2'
 DESCRIPTION = 'Python library to validate JWTs.'
 LONG_DESCRIPTION = 'Python library to validate JWTs to avoid common security issues.'
 
