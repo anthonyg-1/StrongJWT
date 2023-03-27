@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.3'
+VERSION = '0.0.4'
 DESCRIPTION = 'Python library to validate JWTs.'
 LONG_DESCRIPTION = 'Python library to validate JWTs to avoid common security issues.'
 
@@ -13,7 +13,9 @@ setup(
     author_email="tony.guimelli@gmail.com",
     license='MIT',
     packages=find_packages(),
-    install_requires=["pyjwt", "requests"],
+    install_requires=[
+        '<PyJWT>', '<requests>'
+    ]
     keywords='conversion',
     classifiers=[
         "Development Status :: 3 - Alpha",
