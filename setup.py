@@ -15,7 +15,7 @@ setup(
     packages=find_packages(),
     install_requires=[
         '<PyJWT>', '<requests>'
-    ]
+    ],
     keywords='conversion',
     classifiers=[
         "Development Status :: 3 - Alpha",
